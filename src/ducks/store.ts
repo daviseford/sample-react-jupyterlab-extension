@@ -3,7 +3,7 @@ import countReducer from './count'
 
 export default configureStore({
   reducer: {
-    count: countReducer,
+    counter: countReducer,
   },
   devTools: true,
 })

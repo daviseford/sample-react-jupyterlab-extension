@@ -1,14 +1,26 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { ICountSlice, IStore } from '../types/store'
 
-const initialState = 0
+const initialState: ICountSlice = {
+  clicked: 0,
+  count: 0,
+}
 
 export const countSlice = createSlice({
   name: 'counter',
-  initialState: 0,
+  initialState,
   reducers: {
-    resetCount: state => initialState,
-    incrementCount: state => state + 1,
-    decrementCount: state => state - 1,
+    resetCount: (state): void => {
+      state = initialState
+    },
+    incrementCount: (state): void => {
+      state.clicked += 1
+      state.count += 1
+    },
+    decrementCount: (state): void => {
+      state.clicked += 1
+      state.count -= 1
+    },
   },
 })
 
@@ -16,6 +28,6 @@ export const countSlice = createSlice({
 export const countActions = countSlice.actions
 
 // Selector
-export const getCount = state => state.counter
+export const selectCount = (state: IStore): ICountSlice => state.counter
 
 export default countSlice.reducer

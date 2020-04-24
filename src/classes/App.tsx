@@ -3,7 +3,7 @@ import { ReactWidget } from '@jupyterlab/apputils'
 import { Provider } from 'react-redux'
 import { AppComponent } from '../components/AppComponent'
 import { EXTENSION_CSS_CLASSNAME } from '../enums'
-import store from '../ducks'
+import store from '../ducks/store'
 
 export class ReactAppWidget extends ReactWidget {
   constructor() {
