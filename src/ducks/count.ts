@@ -10,9 +10,7 @@ export const countSlice = createSlice({
   name: 'counter',
   initialState,
   reducers: {
-    resetCount: (state): void => {
-      state = initialState
-    },
+    resetCount: () => initialState,
     incrementCount: (state): void => {
       state.clicked += 1
       state.count += 1
