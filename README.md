@@ -1,8 +1,10 @@
 # sample-react-jupyterlab-extension
 
-A great starting point for developing a React-powered Jupyterlab extension.
+A great starting point for developing a React/Redux-powered JupyterLab extension.
 
+![Demo](http://daviseford.com/blog/public/img/projects/jupyterlab-extension/demo.gif)
 
+For more instructions and tips, [check out my blog post.](https://daviseford.com/blog/2020/04/24/react-redux-jupyterlab-extension.html)
 
 ## Requirements
 
