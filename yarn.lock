@@ -77,15 +77,15 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.13.0.tgz#fcb113d1aca4b471b709e8c9c168674fbd6e06d9"
   integrity sha512-xKOeQEl5O47GPZYIMToj6uuA2syyFlq9EMSl2ui0uytjY9xbe8XS0pexNWmxrdcCyNGyDmLyYw5FtKsalBUeOg==
 
-"@jupyterlab/application@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/application/-/application-2.1.0.tgz#2bac945ad7c2a21652ed47f23b52dd46b2afa715"
-  integrity sha512-lC+WO6xbOczmD7ZKOGZg2XP4OYZveGgEIc1Sc+oIg6z2uHIArrWm/76vtjJMAy13WJ50TPCtGNW3vH7Zz2jVUQ==
+"@jupyterlab/application@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/application/-/application-2.1.1.tgz#5b2e3b47d49968956518404473ce56bdfb7108f4"
+  integrity sha512-7qg3vwPkZDO4xDrpV1rMCE9L3s4ABuzuzNVWpqBTTnjzSUBpjeKHfIWqhGkzGlVktoMMa6ydxagEkn/INIMK3g==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.12.0"
     "@jupyterlab/apputils" "^2.1.0"
     "@jupyterlab/coreutils" "^4.1.0"
-    "@jupyterlab/docregistry" "^2.1.0"
+    "@jupyterlab/docregistry" "^2.1.1"
     "@jupyterlab/rendermime" "^2.1.0"
     "@jupyterlab/rendermime-interfaces" "^2.1.0"
     "@jupyterlab/services" "^5.1.0"
@@ -177,10 +177,10 @@
     path-posix "~1.0.0"
     url-parse "~1.4.7"
 
-"@jupyterlab/docregistry@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/docregistry/-/docregistry-2.1.0.tgz#83b6533bdf3749ae7a65c0e3909dc3bb90401e99"
-  integrity sha512-J+OZ5F+F178I5Wny4h3hzo5UzttcVEpLIGUdU2mZfUl+OxlL5rZ4MMd45OR0kH4Th6jny6UPw2oP+R5HgIJ4OA==
+"@jupyterlab/docregistry@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/docregistry/-/docregistry-2.1.1.tgz#4d0761dd6d570b604f8ebfd013cfc82090c44d1f"
+  integrity sha512-uOFapQJv+jNCT/mbCmClrtAQc45ylVFIXQTDknM5sSjA8+JsFrFAOtL24Ir56110eNFmwr28nd7PrNbURHX+cQ==
   dependencies:
     "@jupyterlab/apputils" "^2.1.0"
     "@jupyterlab/codeeditor" "^2.1.0"
